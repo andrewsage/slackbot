@@ -44,13 +44,15 @@ The following instructions are as much a reminder to myself how I did this as th
 Create a virtual Python environment:
 
 ```
-  virtualenv <botname>
+  mkdir <botname>
+  cd <botname>
+  virtualenv venv
 ```
 
 Start the virtual Python environemnt:
 
 ```
-  source <botname>/bin/activate
+  source venv/bin/activate
 ```
 
 Install the Slack API helper library:
