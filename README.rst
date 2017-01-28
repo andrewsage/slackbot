@@ -94,5 +94,6 @@ See the /examples directory for examples of the kinds of bots that you can build
 
 Currently there is a bot for querying Eventbrite.
 
+.. _PyPI: https://pypi.python.org/pypi
 .. _'How to Build Your First Slack Bot with Python': https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
 .. _'Python SlackClient':http://slackapi.github.io/python-slackclient/
