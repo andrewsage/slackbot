@@ -20,12 +20,6 @@ The slackbot API reference
 
    name - name of the bot as registered with Slack
 
-.. automodule:: eventbritebot
-
-.. autoclass:: EventbriteBot
-   :members:
-
-
 Indices and tables
 ==================
 
