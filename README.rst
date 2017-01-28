@@ -14,15 +14,15 @@ The following instructions are as much a reminder to myself how I did this as th
 Installation
 ----
 
-SlackBot is available through the Python Package Index, PyPI_, you can install it with:
+SlackBot is available through the Python Package Index, PyPI_, you can install it with::
 
     pip install codethecity-slackbot
 
-Alternatively, clone or fork the repository and use:
+Alternatively, clone or fork the repository and use::
 
     python setup.py develop
 
-to install locally for development. For local development you should also install the development dependencies (ideally in a ``virtualenv``) using:
+to install locally for development. For local development you should also install the development dependencies (ideally in a ``virtualenv``) using::
 
     pip install -r requirements.txt
 
@@ -33,11 +33,9 @@ SlackBot
 ----
 SlackBot is the base class that connects to your registered Slack Bot.
 
-In order to use the class you must be using the your token from Slack. To set the environmant variable use:
+In order to use the class you must be using the your token from Slack. To set the environmant variable use::
 
-```
-  export SLACK_BOT_TOKEN='token'
-```
+    export SLACK_BOT_TOKEN='token'
 
 It handles the following default commands:
 
@@ -53,11 +51,9 @@ EventbriteBot is a subclass of SlackBot and provides basic querying of Eventbrit
 
 It uses `Eventbrite Python SDK`_.
 
-In order to use the class you must be using the your token from Eventbrite. To set the environmant variable use:
+In order to use the class you must be using the your token from Eventbrite. To set the environmant variable use::
 
-```
   export EVENTBRITE_TOKEN='token'
-```
 
 This is an example showing how the SlackBot class is subclassed and used.
 
@@ -67,25 +63,19 @@ Creating a sample project with SlackBot
 Setup the working environment
 ----
 
-Create a virtual Python environment:
+Create a virtual Python environment::
 
-```
   mkdir <botname>
   cd <botname>
   virtualenv venv
-```
 
-Start the virtual Python environemnt:
+Start the virtual Python environemnt::
 
-```
   source venv/bin/activate
-```
 
-Install the Slack API helper library:
+Install the Slack API helper library::
 
-```
   pip install slackclient
-```
 
 Examples
 ----
