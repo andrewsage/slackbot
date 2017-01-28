@@ -23,10 +23,10 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='1.0.0.dev2',
+    version='1.0.0.dev3',
 
     description='A framework for creating Slackbots for Python. Developed for CodeTheCity.',
-    long_description='A framework for creating Slackbots for Python. Developed for CodeTheCity events.',
+    long_description=long_description,
 
     # The project's main homepage.
     url='https://github.com/andrewsage/slackbot',
@@ -48,7 +48,7 @@ setup(
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
+        'Topic :: Communications :: Chat',
 
         # Pick your license as you wish (should match "license" above)
         'License :: OSI Approved :: MIT License',
@@ -69,7 +69,7 @@ setup(
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['contrib', 'docs', 'tests']),
+    packages=['slackbot'],
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
     # this:
@@ -106,9 +106,9 @@ setup(
     # To provide executable scripts, use entry points in preference to the
     # "scripts" keyword. Entry points provide cross-platform support and allow
     # pip to create the appropriate form of executable for the target platform.
-    #entry_points={
-    #    'console_scripts': [
-    #        'sample=sample:main',
-    #    ],
-    #},
+    entry_points={
+        'console_scripts': [
+            'sample=sample:main',
+        ],
+    },
 )

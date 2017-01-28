@@ -1,7 +1,7 @@
 import os
 import time
 import re
-from slackbot import SlackBot
+from slackbot.slackbot import SlackBot
 from eventbrite import Eventbrite
 
 # Create bot as subclass of SlackBot

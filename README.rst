@@ -73,10 +73,6 @@ Start the virtual Python environemnt::
 
   source venv/bin/activate
 
-Install the Slack API helper library::
-
-  pip install slackclient
-
 Examples
 ----
 
