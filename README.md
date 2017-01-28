@@ -1,6 +1,8 @@
 # SlackBot
 Python based Slack Bot that makes use of [Python SlackClient](http://slackapi.github.io/python-slackclient/)
 
+Usage
+
 # SlackBot
 SlackBot is the base class that connects to your registered Slack Bot.
 
@@ -37,6 +39,20 @@ Using [How to Build Your First Slack Bot with Python](https://www.fullstackpytho
 
 The following instructions are as much a reminder to myself how I did this as they are a guide to others.
 
+# Installation
+
+SlackBot is available through the Python Package Index, PyPI_, you can install it with:
+
+    pip install codethecity-slackbot
+
+Alternatively, clone or fork the repository and use:
+
+    python setup.py develop
+
+to install locally for development. For local development you should also install the development dependencies (ideally in a ``virtualenv``) using:
+
+    pip install -r requirements.txt
+
 # Creating a sample project with SlackBot
 
 ## Setup the working environment
@@ -61,4 +77,9 @@ Install the Slack API helper library:
   pip install slackclient
 ```
 
+# Examples
+
+See the /examples directory for examples of the kinds of bots that you can build with SlackBot.
+
+Currently there is a bot for querying Eventbrite.
 
