@@ -1,0 +1,2 @@
+slackclient==1.0.0
+eventbrite==3.3.3
