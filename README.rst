@@ -1,11 +1,11 @@
 SlackBot
 ----
-Python based Slack Bot that makes use of 'Python SlackClient'_
+Python based Slack Bot that makes use of `Python SlackClient`_
 
 The inspiration
 ----
 
-Using 'How to Build Your First Slack Bot with Python'_, I went from not knowing Python to having my first bot up and running in under an hour. Using that knowledge as a basis I managed to put this together in under a day.
+Using `How to Build Your First Slack Bot with Python`_, I went from not knowing Python to having my first bot up and running in under an hour. Using that knowledge as a basis I managed to put this together in under a day.
 
 
 
@@ -51,7 +51,7 @@ EventbriteBot
 
 EventbriteBot is a subclass of SlackBot and provides basic querying of Eventbrite events for a given user account.
 
-It uses [Eventbrite Python SDK](http://eventbrite-sdk-python.readthedocs.io/en/latest/).
+It uses `Eventbrite Python SDK`_.
 
 In order to use the class you must be using the your token from Eventbrite. To set the environmant variable use:
 
@@ -95,5 +95,6 @@ See the /examples directory for examples of the kinds of bots that you can build
 Currently there is a bot for querying Eventbrite.
 
 .. _PyPI: https://pypi.python.org/pypi
-.. _'How to Build Your First Slack Bot with Python': https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
-.. _'Python SlackClient': http://slackapi.github.io/python-slackclient/
+.. _`How to Build Your First Slack Bot with Python`: https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
+.. _`Python SlackClient`: http://slackapi.github.io/python-slackclient/
+.. _`Eventbrite Python SDK`: http://eventbrite-sdk-python.readthedocs.io/en/latest/
