@@ -95,4 +95,8 @@ user = eventbrite.get_user()
 slackbot = EventbriteBot("eventbot")
 
 if __name__ == "__main__":
+  if "id" in user:
     slackbot.run()
+
+  else:
+    print("Eventbrite connection failed. Invalid Eventbrite token?")
