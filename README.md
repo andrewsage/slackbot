@@ -19,7 +19,9 @@ It handles the following default commands:
 
 # EventbriteBot
 EventbriteBot is a subclass of SlackBot and provides basic querying of Eventbrite events for a given user account.
-It uses [Eventbrite Python SDK](http://eventbrite-sdk-python.readthedocs.io/en/latest/)
+
+It uses [Eventbrite Python SDK](http://eventbrite-sdk-python.readthedocs.io/en/latest/).
+
 In order to use the class you must be using the your token from Eventbrite. To set the environmant variable use:
 
 ```
