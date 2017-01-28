@@ -18,15 +18,15 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='slackbot',
+    name='codethecity-slackbot',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     version='1.0.0.dev1',
 
-    description='Python based Slack Bot that makes use of Python SlackClient',
-    long_description='Python based Slack Bot that makes use of Python SlackClient',
+    description='A framework for creating Slackbots for Python. Developed for CodeTheCity.',
+    long_description='A framework for creating Slackbots for Python. Developed for CodeTheCity events.',
 
     # The project's main homepage.
     url='https://github.com/andrewsage/slackbot',
