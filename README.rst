@@ -1,13 +1,13 @@
 SlackBot
 ----
-Python based Slack Bot that makes use of [Python SlackClient](http://slackapi.github.io/python-slackclient/)
+Python based Slack Bot that makes use of 'Python SlackClient'_
 
 The inspiration
 ----
 
-Using How to Build Your First Slack Bot with Python_, I went from not knowing Python to having my first bot up and running in under an hour. Using that knowledge as a basis I managed to put this together in under a day.
+Using 'How to Build Your First Slack Bot with Python <https://www.fullstackpython.com/blog/build-first-slack-bot-python.html>'_, I went from not knowing Python to having my first bot up and running in under an hour. Using that knowledge as a basis I managed to put this together in under a day.
 
-.. _How to Build Your First Slack Bot with Python: https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
+
 
 The following instructions are as much a reminder to myself how I did this as they are a guide to others.
 
@@ -94,3 +94,5 @@ See the /examples directory for examples of the kinds of bots that you can build
 
 Currently there is a bot for querying Eventbrite.
 
+.. _'How to Build Your First Slack Bot with Python': https://www.fullstackpython.com/blog/build-first-slack-bot-python.html
+.. _'Python SlackClient':http://slackapi.github.io/python-slackclient/
