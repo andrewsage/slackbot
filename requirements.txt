@@ -4,7 +4,7 @@ Babel==2.3.4
 docutils==0.13.1
 eventbrite==3.3.3
 imagesize==0.7.1
-Jinja2==2.9.5
+Jinja2==2.11.3
 MarkupSafe==0.23
 packaging==16.8
 Pygments==2.2.0
